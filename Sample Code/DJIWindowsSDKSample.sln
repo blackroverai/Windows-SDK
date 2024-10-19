@@ -7,8 +7,6 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DJIVideoParser", "DJIVideoP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DJIWindowsSDKSample_x64", "DJIWindowsSDKSample_x64\DJIWindowsSDKSample_x64.csproj", "{103DD54D-DD07-4722-BD1C-F40F33A53A3C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DJIWindowsSDKSample_x86", "DJIWindowsSDKSample_x86\DJIWindowsSDKSample_x86.csproj", "{927FC7E1-925F-41E4-9F5C-28F82F53578F}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -49,24 +47,6 @@ Global
 		{103DD54D-DD07-4722-BD1C-F40F33A53A3C}.Release|x86.ActiveCfg = Release|x86
 		{103DD54D-DD07-4722-BD1C-F40F33A53A3C}.Release|x86.Build.0 = Release|x86
 		{103DD54D-DD07-4722-BD1C-F40F33A53A3C}.Release|x86.Deploy.0 = Release|x86
-		{927FC7E1-925F-41E4-9F5C-28F82F53578F}.Debug|ARM.ActiveCfg = Debug|ARM
-		{927FC7E1-925F-41E4-9F5C-28F82F53578F}.Debug|ARM.Build.0 = Debug|ARM
-		{927FC7E1-925F-41E4-9F5C-28F82F53578F}.Debug|ARM.Deploy.0 = Debug|ARM
-		{927FC7E1-925F-41E4-9F5C-28F82F53578F}.Debug|x64.ActiveCfg = Debug|x86
-		{927FC7E1-925F-41E4-9F5C-28F82F53578F}.Debug|x64.Build.0 = Debug|x86
-		{927FC7E1-925F-41E4-9F5C-28F82F53578F}.Debug|x64.Deploy.0 = Debug|x86
-		{927FC7E1-925F-41E4-9F5C-28F82F53578F}.Debug|x86.ActiveCfg = Debug|x86
-		{927FC7E1-925F-41E4-9F5C-28F82F53578F}.Debug|x86.Build.0 = Debug|x86
-		{927FC7E1-925F-41E4-9F5C-28F82F53578F}.Debug|x86.Deploy.0 = Debug|x86
-		{927FC7E1-925F-41E4-9F5C-28F82F53578F}.Release|ARM.ActiveCfg = Release|ARM
-		{927FC7E1-925F-41E4-9F5C-28F82F53578F}.Release|ARM.Build.0 = Release|ARM
-		{927FC7E1-925F-41E4-9F5C-28F82F53578F}.Release|ARM.Deploy.0 = Release|ARM
-		{927FC7E1-925F-41E4-9F5C-28F82F53578F}.Release|x64.ActiveCfg = Release|x64
-		{927FC7E1-925F-41E4-9F5C-28F82F53578F}.Release|x64.Build.0 = Release|x64
-		{927FC7E1-925F-41E4-9F5C-28F82F53578F}.Release|x64.Deploy.0 = Release|x64
-		{927FC7E1-925F-41E4-9F5C-28F82F53578F}.Release|x86.ActiveCfg = Release|x86
-		{927FC7E1-925F-41E4-9F5C-28F82F53578F}.Release|x86.Build.0 = Release|x86
-		{927FC7E1-925F-41E4-9F5C-28F82F53578F}.Release|x86.Deploy.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
