@@ -22,6 +22,9 @@ namespace DJIWindowsSDKSample.DJISDKInitializing
         {
             this.InitializeComponent();
             DJISDKManager.Instance.SDKRegistrationStateChanged += Instance_SDKRegistrationEvent;
+            string registrationKey = "1ebd2d74d0fef595e6f8a5ba";
+
+            DJISDKManager.Instance.RegisterApp(registrationKey);
         }
 
         private async void Instance_SDKRegistrationEvent(SDKRegistrationState state, SDKError resultCode)
