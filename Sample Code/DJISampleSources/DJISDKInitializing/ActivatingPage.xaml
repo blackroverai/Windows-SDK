@@ -17,9 +17,6 @@
                     <TextBlock FontSize="20"  Name="activateStateTextBlock"> Not Activated.</TextBlock>
 
                 </StackPanel>
-                <TextBlock> Activating Code: </TextBlock>
-                <TextBox Name="activatingCodeTextBox" Width="300" HorizontalAlignment="Left"></TextBox>
-                <Button Margin="0,5,0,0" Click="RegisterButton_Click"> Activate </Button>
                 <TextBlock 
                      Name="activationInformation"
                      ScrollViewer.VerticalScrollBarVisibility="Visible"

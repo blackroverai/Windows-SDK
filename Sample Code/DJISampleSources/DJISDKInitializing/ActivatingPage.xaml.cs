@@ -35,12 +35,5 @@ namespace DJIWindowsSDKSample.DJISDKInitializing
                activationInformation.Text = resultCode == SDKError.NO_ERROR ? "Register success" : resultCode.ToString();
             });
         }
-
-        private void RegisterButton_Click(object sender, RoutedEventArgs e)
-        {
-            DJISDKManager.Instance.RegisterApp(activatingCodeTextBox.Text);
-            activationInformation.Text = "Registering...";
-        }
-
     }
 }
